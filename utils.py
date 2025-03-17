@@ -21,3 +21,6 @@ def odecti(a, b):
 
 def deleni(a,b):
     return a / b
+
+def vynasob(stranaa, stranab):
+    return stranaa * stranab

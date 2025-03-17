@@ -26,7 +26,7 @@ def deleni(a,b):
 
 def odmocnovani(a,b):
     """
-    Vrátí odmocniny z obou čísel.
+    Vrátí odmocniny z obou čísel
 
     :param a: první číslo
     :param b: druhé číslo

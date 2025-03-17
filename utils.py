@@ -21,3 +21,6 @@ def odecti(a, b):
 
 def deleni(a,b):
     return a / b
+
+def prevod_na_procenta (a):
+    return a * 100

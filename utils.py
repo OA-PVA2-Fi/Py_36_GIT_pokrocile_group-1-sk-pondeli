@@ -21,6 +21,3 @@ def odecti(a, b):
 
 def deleni(a,b):
     return a / b
-
-def obsah_obdelniku(a,b):
-    return a*b

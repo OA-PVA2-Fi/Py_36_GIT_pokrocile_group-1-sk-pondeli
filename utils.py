@@ -19,5 +19,5 @@ def odecti(a, b):
     """
     return a - b
 
-def deleni(a,b):
-    return a / b
+def obvod_ctverce(a):
+    return 4 * a

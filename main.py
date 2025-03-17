@@ -1,10 +1,11 @@
-from utils import secti
+from utils import secti, obsah_obdelniku
 
 def main():
     x = 5
     y = 10
     vysledek = secti(x, y)
-    print(f"Výsledek sčítání {x} a {y} je: {vysledek}")
+    vysledek_obsahu_obdelniku = obsah_obdelniku(x,y)
+    print(f"Obsah obdélníku je: {vysledek_obsahu_obdelniku}")
 
 if __name__ == '__main__':
     main()

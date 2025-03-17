@@ -1,3 +1,5 @@
+import math
+
 def secti(a, b):
     """
     Vrátí součet dvou čísel.
@@ -21,3 +23,13 @@ def odecti(a, b):
 
 def deleni(a,b):
     return a / b
+
+def odmocnovani(a,b):
+    """
+    Vrátí odmocniny z obou čísel
+
+    :param a: první číslo
+    :param b: druhé číslo
+    :return: vypočítá odmocninu z a a b
+    """
+    return math.sqrt(a), math.sqrt(b)
